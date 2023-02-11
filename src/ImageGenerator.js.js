@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import ImageDisplay from './component/ImageDisplay';
 import TextDescription from './component/TextDescription';
-import  'dotenv-webpack';
 
-import 'dotenv/config';
+
+require('dotenv-webpack');
+require('dotenv').config();
 
 const apikey = process.env.REACT_APP_OPENAI_KEY;
 const ImageGenerator = () => {
