@@ -1,0 +1,16 @@
+.container {
+  background-color: #EEA47F;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+}
+.input-div label {
+  font-family: serif;
+  font-size: 24px;
+  letter-spacing: 3;
+  color: #000080;
+}/*# sourceMappingURL=style.css.map */
